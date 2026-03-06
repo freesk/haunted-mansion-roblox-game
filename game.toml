@@ -1,0 +1,98 @@
+# Mansion Escape - Game Configuration
+#
+# This file defines game metadata and content ratings for Roblox platform compliance.
+
+[game]
+name = "Mansion Escape"
+genre = "Horror"
+max_players = 8
+
+[content_rating]
+# Content maturity level for Roblox moderation
+# Options: All Ages, 9+, 13+, 17+
+# "Mild" corresponds to 9+ rating
+maturity = "Mild"
+
+# Target age range based on game design
+age_recommendation = "10-14"
+
+[content_descriptors]
+# Violence/fear level
+# For 10-14 age group: Mild fear and suspense allowed
+violence = "Mild Fear"
+
+# Blood/gore level
+# For 10-14 age group: No blood or gore
+blood = "None"
+
+# Horror intensity
+# Stylized/cartoonish horror only, no photorealistic scares
+horror_level = "Mild Suspense"
+
+[guidelines]
+# Content Guidelines for Development
+# These ensure compliance with Roblox community standards for target demographic
+
+# Visual Guidelines:
+# - No realistic blood or gore
+# - Stylized/cartoonish visuals only
+# - Mild fear and suspense allowed
+# - No photorealistic horror imagery
+# - Avoid jump scares that are too intense
+# - Use atmosphere and tension over graphic content
+
+# Audio Guidelines:
+# - No realistic screaming or death sounds
+# - Ambient/atmospheric audio preferred
+# - Mild "spooky" sound effects acceptable
+# - Avoid loud sudden noises (respect hearing safety)
+
+# Gameplay Guidelines:
+# - Death mechanic is "disappearance" not graphic
+# - Entities should be mysterious/spooky not terrifying
+# - Focus on cooperation and teamwork
+# - Tension from gameplay mechanics, not disturbing content
+
+# Text/Communication:
+# - No profanity or inappropriate language in UI
+# - Filter all player-to-player text (Roblox handles this)
+# - Keep game messages age-appropriate
+
+[technical]
+# Technical requirements for Roblox platform
+roblox_version_min = "1.0.0"
+supports_mobile = true
+supports_tablet = true
+supports_desktop = true
+supports_console = false  # Xbox not in initial scope
+
+[monetization]
+# Monetization model
+free_to_play = true
+in_game_purchases = true
+purchase_type = "revive_tokens"
+currency = "Robux"
+
+# Roblox DevEx compliance
+follows_devex_terms = true
+no_gambling_mechanics = true
+no_loot_boxes = true
+purchases_are_consumable = true  # Revive tokens are consumed on use
+
+[compliance]
+# Roblox Terms of Service compliance
+follows_tos = true
+follows_community_rules = true
+has_reporting_system = true  # Use Roblox built-in reporting
+moderates_user_content = true  # Via Roblox filtering
+
+# Privacy (COPPA compliance for under-13)
+collects_personal_data = false
+uses_external_links = false
+requires_account_age_verification = false
+
+---
+# Metadata
+last_updated = "2026-02-03"
+version = "0.1.0"
+phase = "01-foundation-security"
